@@ -5,13 +5,13 @@ import os
 import random
 import string
 from subprocess import Popen, PIPE, check_output
-from sys import platform
+import sys
 
-if platform == "darwin":
+if sys.platform == "darwin":
     WEBBREAKER_EXE = "/usr/local/bin/webbreaker"
-elif platform == "linux2":
+elif sys.platform == "linux2":
     WEBBREAKER_EXE = "/usr/bin/webbreaker"
-elif platform == "win32":
+elif sys.platform == "win32":
     WEBBREAKER_EXE = ""
     
 PROXY_NAME = "ZeroBankTest" + "-" + "".join(random.choice(string.ascii_uppercase + string.digits) for _ in range(5))
