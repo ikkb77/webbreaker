@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/target/webbreaker.svg?branch=master)](https://travis-ci.org/target/webbreaker/builds)
-[![Release](http://img.shields.io/github/release/target/webbreaker.svg)](https://github.com/target/webbreaker/releases/latest)
+[![Build Status](https://travis-ci.org/webbreaker/webbreaker.svg?branch=master)](https://travis-ci.org/webbreaker/webbreaker/builds)
+[![Release](http://img.shields.io/github/release/webbreaker/webbreaker.svg)](https://github.com/webbreaker/webbreaker/releases/latest)
 [![Versions](https://img.shields.io/pypi/pyversions/webinspectapi.svg)](https://img.shields.io/pypi/pyversions/webinspectapi.svg)
 [![Open Hub statistics](https://www.openhub.net/p/webbreaker/widgets/project_thin_badge.gif)](https://www.openhub.net/p/webbreaker)
 
@@ -12,21 +12,21 @@ The commands are organized by product followed by actions you want to take on th
 ## Download & Install
  [ ![Download](https://api.bintray.com/packages/webbreaker/webbreaker-cli/webbreaker/images/download.svg) ](https://bintray.com/webbreaker/webbreaker-cli/webbreaker/_latestVersion)
 
-:arrow_down: [Mac OS](https://github.com/target/webbreaker/releases), Mac installation is available on tap @ [homebrew](https://brew.sh) - COMING SOON
+:arrow_down: [Mac OS](https://github.com/webbreaker/webbreaker/releases), Mac installation is available on tap @ [homebrew](https://brew.sh) - COMING SOON
 
 `brew install webbreaker`
 
-:arrow_down: [CentOS/RedHat/Fedora](https://github.com/target/webbreaker/releases), Linux installation is available @ [artifactory](https://bintray.com/webbreaker/webbreaker-cli/webbreaker/)
+:arrow_down: [CentOS/RedHat/Fedora](https://github.com/webbreaker/webbreaker/releases), Linux installation is available @ [artifactory](https://bintray.com/webbreaker/webbreaker-cli/webbreaker/)
 
 `yum install webbreaker`
 
-:arrow_down: [Windows 7](https://github.com/target/webbreaker/releases), Windows installation is available @ [Chocolatey](https://chocolatey.org) - COMING SOON
+:arrow_down: [Windows 7](https://github.com/webbreaker/webbreaker/releases), Windows installation is available @ [Chocolatey](https://chocolatey.org) - COMING SOON
 
 `choco install webbreaker`
 
-:arrow_down: [Build and install](https://github.com/target/webbreaker.git) from source and follow the steps below.
+:arrow_down: [Build and install](https://github.com/webbreaker/webbreaker.git) from source and follow the steps below.
 
-1. ```git clone https://github.com/target/webbreaker```
+1. ```git clone https://github.com/webbreaker/webbreaker```
 1. ```export PATH=$PATH:$PYTHONPATH```
 1. ```cd webbreaker;pip install -r requirements.txt```
 1. ```python setup.py build```
@@ -34,13 +34,11 @@ The commands are organized by product followed by actions you want to take on th
 
 
 ## Configuration
-:white_check_mark: If you have downloaded an executable release of [webbreaker](https://github.com/target/webbreaker/releases), add it to your $PATH or %PATH%
+:white_check_mark: If you have downloaded an executable release of [webbreaker](https://github.com/webbreaker/webbreaker/releases), add it to your $PATH or %PATH%
 
 :white_check_mark: First time installs, run the `webbreaker` command in your terminal to create the default configurations, including the `$HOME/.webbreaker/config.ini`
 
 :white_check_mark: Configure the `$HOME/.webbreaker/config.ini` or `%USERPROFILE%\.webbreaker\config.ini`
-
-:white_check_mark: Below are Webinspect, Fortify SSC, and ThreadFix required settings, see [User Guide](https://target.github.io/webbreaker/#configuration) for advanced set-up.
 
 ```
 # Your required Fortify SSC URL and run `webbreaker admin credentials --fortify` 
@@ -62,7 +60,6 @@ endpoint_02 = %(server_01)s|%(small_server_max_concurrent_scans)s
 ```
 **NOTES:**
 * If you are using WebInspect turn-on your [WebInspect API Service](https://software.microfocus.com/en-us/software/webinspect).  
-* Advance configuration is available on our [User Guide](https://target.github.io/webbreaker/#configuration).
 
 ## Release Notes
 
@@ -70,7 +67,7 @@ New Features, bugs and enhancements for this release are documented in our [WebB
 
 ## Usage
 
-WebBreaker is a command-line interface (CLI) client.  See our complete [_WebBreaker Documentation_](https://target.github.io/webbreaker/) for further configuration, usage, and installation.
+WebBreaker is a command-line interface (CLI) client.
 
 Illustrated below is an example of a typical WebBreaker WebInspect scanning workflow from creation to triage.  Please see the [WebBreaker Cheatsheet](docs/cheatsheet.md) for further examples.
 
@@ -102,11 +99,11 @@ webbreaker threadfix upload --scan_name ${BUILD_TAG} --application ${JOB_NAME}
 
 ## Bugs and Feature Requests
 
-Found something that doesn't seem right or have a feature request? [Please open a new issue](https://github.com/target/webbreaker/issues/new/).
+Found something that doesn't seem right or have a feature request? [Please open a new issue](https://github.com/webbreaker/webbreaker/issues/new/).
 
 ## Copyright and License
 
-[![license](https://img.shields.io/github/license/target/webbreaker.svg?style=flat-square)](https://github.com/target/webbreaker/blob/master/LICENSE.txt)
+[![license](https://img.shields.io/github/license/webbreaker/webbreaker.svg?style=flat-square)](https://github.com/webbreaker/webbreaker/blob/master/LICENSE.txt)
 
 Copyright 2018 Target Brands, Inc.
 

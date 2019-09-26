@@ -51,9 +51,8 @@ if sys.argv[-1] == 'build':
     sys.exit(0)
 
 setup(
-    author='Brandon Spruth, Jim Nelson, Matthew Dunaj, Kyler Witting',
-    author_email='brandon.spruth2@target.com, jim.nelson2@target.com, matthew.dunaj@target.com,'
-                 'kyler.witting@target.com',
+    author='Brandon Spruth',
+    author_email='brandon@webbreaker.io'
     classifiers=[
         'Programming Language :: Python',
         'Development Status :: 4 - Beta',
@@ -82,7 +81,7 @@ setup(
     name='webbreaker',
     packages=find_packages(exclude=['docs', 'images', 'tests*']),
     tests_require=['pytest'],
-    url="https://github.com/target/webbreaker",
+    url="https://github.com/webbreaker/webbreaker",
     version=version,
 )
 

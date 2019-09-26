@@ -1,10 +1,8 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-__author__ = "Brandon Spruth (brandon.spruth2@target.com), Jim Nelson (jim.nelson2@target.com)," \
-             "Matt Dunaj (matthew.dunaj@target.com), Kyler Witting (Kyler.Witting@target.com)"
-__copyright__ = "(C) 2018 Target Brands, Inc."
-__contributors__ = ["Brandon Spruth", "Jim Nelson", "Matthew Dunaj", "Kyler Witting", "Matthew Fevold"]
+__author__ = "Brandon Spruth (brandon@webbreaker.io)"
+__contributors__ = ["Brandon Spruth"]
 __status__ = "Production"
 __license__ = "MIT"
 

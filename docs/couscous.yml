@@ -2,11 +2,11 @@ template:
     url: https://github.com/CouscousPHP/Template-Light
 
 # Base URL of the published website
-baseUrl: https://target.github.io/webbreaker/
+baseUrl: https://webbreaker.io/webbreaker/
 
 # Used to link to the GitHub project
 github:
-    user: target
+    user: xolian
     repo: webbreaker
     url: github.com
 
