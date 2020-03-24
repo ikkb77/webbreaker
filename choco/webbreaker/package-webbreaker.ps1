@@ -5,4 +5,9 @@ $webbreaker_winexe="https://github.com/webbreaker/webbreaker/releases/download/"
 
 # Download latest webbreaker
 Invoke-WebRequest -Uri $webbreaker_winexe -OutFile "tools/webbreaker.exe"
+# Package Webbreaker
 choco pack
+
+# Upload Package
+# Consider using a github action for this.
+#choco push .\webbreaker.2.2.0.nupkg --source https://push.chocolatey.org/
