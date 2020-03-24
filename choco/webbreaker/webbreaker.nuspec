@@ -19,7 +19,7 @@ This is a nuspec. It mostly adheres to https://docs.nuget.org/create/Nuspec-Refe
 <package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
   <metadata>
     <id>webbreaker</id>
-    <version>2.2.0.0</version>
+    <version>2.2.0</version>
     <packageSourceUrl>https://github.com/webbreaker/webbreaker/releases/download/v2.2.0/webbreaker-win-10.exe</packageSourceUrl>
     <owners>Aaron Tesch - https://github.com/attesch</owners>
     <title>Webbreaker</title>

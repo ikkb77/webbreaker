@@ -27,7 +27,7 @@ $fileLocation = Join-Path $toolsDir 'webbreaker.exe'
 #$fileLocation = '\\SHARE_LOCATION\to\INSTALLER_FILE'
 # Community Repo: Use official urls for non-redist binaries or redist where total package size is over 200MB
 # Internal/Organization: Download from internal location (internet sources are unreliable)
-#$url        = '{{DownloadUrl}}' # download url, HTTPS preferred
+#$url        = 'https://github.com/webbreaker/webbreaker/releases/download/v2.2.0/webbreaker-win-10.exe' # download url, HTTPS preferred
 #$url64      = '{{DownloadUrlx64}}' # 64bit URL here (HTTPS preferred) or remove - if installer contains both (very rare), use $url
 
 $packageArgs = @{
@@ -120,7 +120,7 @@ Install-ChocolateyPackage @packageArgs # https://chocolatey.org/docs/helpers-ins
 ## folder will already be on the path. This is used in addition to that or for cases 
 ## when a native installer doesn't add things to the path.
 ## - https://chocolatey.org/docs/helpers-install-chocolatey-path
-#Install-ChocolateyPath 'LOCATION_TO_ADD_TO_PATH' 'User_OR_Machine' # Machine will assert administrative rights
+## Install-ChocolateyPath 'LOCATION_TO_ADD_TO_PATH' 'User' # Machine will assert administrative rights
 
 ## Add specific files as shortcuts to the desktop
 ## - https://chocolatey.org/docs/helpers-install-chocolatey-shortcut
