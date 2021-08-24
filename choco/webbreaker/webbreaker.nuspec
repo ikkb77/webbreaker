@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>webbreaker</id>
+    <version>2.2.0</version>
+    <packageSourceUrl>https://github.com/webbreaker/webbreaker/releases/download/v2.2.0/webbreaker-win-10.exe</packageSourceUrl>
+    <owners>Aaron Tesch - https://github.com/attesch</owners>
+    <title>Webbreaker</title>
+    <authors>Brandon Spurth - https://github.com/xolian</authors>
+    <projectUrl>https://webbreaker.io</projectUrl>
+    <iconUrl>http://cdn.rawgit.com/__REPLACE_YOUR_REPO__/master/icons/webbreaker.png</iconUrl>
+    <copyright>2020 XOLIAN</copyright>
+    <licenseUrl>https://github.com/webbreaker/webbreaker/blob/master/LICENSE.txt</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <projectSourceUrl>https://github.com/webbreaker/webbreaker</projectSourceUrl>
+    <docsUrl>https://webbreaker.readthedocs.io/en/latest/</docsUrl>
+    <bugTrackerUrl>https://github.com/webbreaker/webbreaker/issues</bugTrackerUrl>
+    <tags>webbreaker, DASTO</tags>
+    <summary>WebBreaker is an open source Dynamic Application Security Test Orchestration (DASTO) client.</summary>
+    <description>WebBreaker is an open source Dynamic Application Security Test Orchestration (DASTO) client, enabling development teams to create pipelines for security testing and automation of functional security tests, with WebInspect, Fortify SSC, and ThreadFix
+    </description>
+    <releaseNotes>__REPLACE_OR_REMOVE__MarkDown_Okay</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>

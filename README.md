@@ -20,9 +20,9 @@ The commands are organized by product followed by actions you want to take on th
 
 `yum install webbreaker`
 
-:arrow_down: [Windows 7](https://github.com/webbreaker/webbreaker/releases), Windows installation is available @ [Chocolatey](https://chocolatey.org) - COMING SOON
+:arrow_down: [Windows](https://github.com/webbreaker/webbreaker/releases), Windows installation is available @ [Chocolatey](https://chocolatey.org/packages/webbreaker) - BETA
 
-`choco install webbreaker`
+`choco install webbreaker --version=2.2.0`
 
 :arrow_down: [Build and install](https://github.com/webbreaker/webbreaker.git) from source and follow the steps below.
 
